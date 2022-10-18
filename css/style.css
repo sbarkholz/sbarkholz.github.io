@@ -1,0 +1,139 @@
+body {
+  margin: 0 0;
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  /* background-image: linear-gradient(red,blue); */
+  background-image: url("../img/erika.png");
+  border: 50px lightblue solid;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-image: linear-gradient(red,blue); */
+}
+
+img {
+  max-width: 100%;
+}
+
+img.logo {
+
+  width: 30%;
+  height: auto;
+}
+
+header {
+  /* background-color: darkblue; */
+  padding: 10px;
+  text-align: center;
+}
+
+.cast > ul > li {
+  color: white;
+  list-style-type: none;
+
+}
+h1,p {
+  color: lightblue;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav > ul > li > a, h1 {
+  font-size: 2em;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: lightblue;
+  background-color: white;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  /* background-color: black; */
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightblue;
+}
+/*
+p:first-letter {
+  font-size: 2em;
+} */
+
+p:first-line {
+  font-weight: bold;
+  color: white;
+}
+
+.about {
+  /* position: absolute;
+  z-index: -100;
+  left: 50px; */
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 2px red solid;
+  padding: 50px;
+  margin: 25px;
+  box-shadow: 5px 10px lightblue;
+  background-color: rgba(255,0,0,0.5);
+  box-sizing: border-box;
+  /* visibility: hidden; */
+  display: none;
+}
+table{
+  color: white;
+  width: 100%;
+  border: 10px white solid;
+  background-color: lightblue;
+}
+tr{
+  height: 100px;
+}
+td{
+    border: 5px lightblue solid;
+}
+th{
+  color: darkblue;
+}
+
+h2{
+  color: white;
+}
+li.example{
+  color: lightblue;
+  font-size: 2em;
+}
+p.intro{
+  background-color: lightblue;
+  color: white;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
