@@ -1,0 +1,236 @@
+body {
+  margin: 0 0;
+  /* background-color: lightblue; */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  /* background-image: linear-gradient(red,blue); */
+  /* border: 50px lightblue solid; */
+  /* background-image: linear-gradient(red,blue); */
+}
+.rudy{
+  background-image: url("../img/Rudy cover.jpg");
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #3D843E;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.logo {
+
+  width: 30%;
+  height: auto;
+}
+
+header {
+  /* background-color: darkblue; */
+  padding: 10px;
+  text-align: center;
+}
+
+.cast > ul > li {
+  color: #0B2241;
+  list-style-type: none;
+
+}
+
+.quote {
+  color: #0B2241;
+  font-size: 30pt;
+}
+span{
+  color: #C79828;
+}
+h1,p {
+  color: #C79828;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav > ul > li > a, h1 {
+  font-size: 2em;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  color: #0B2241;
+  background-color: #C79828;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  /* background-color: black; */
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #C79828;
+}
+/*
+p:first-letter {
+  font-size: 2em;
+} */
+
+/* p:first-line {
+  font-weight: bold;
+  color: #0B2241;
+} */
+
+.about {
+  position: absolute;
+  z-index: -100;
+  left: 50px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 2px red solid;
+  padding: 50px;
+  margin: 25px;
+  box-shadow: 5px 10px #C79828;
+  background-color: rgba(255,0,0,0.5);
+  box-sizing: border-box;
+  visibility: hidden;
+  display: none;
+}
+table{
+  color: white;
+  width: 100%;
+  border: 10px white solid;
+  background-color: #C79828;
+}
+
+.title{
+  color: #0B2241;
+}
+
+@keyframes fly {
+  0%, 100% {
+    transform: translate(0,0);
+  }
+  50% {
+    transform: translate(400px,0);
+  }
+}
+
+.erika{
+  width: 200px;
+  animation-name: fly;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+}
+
+tr{
+  height: 100px;
+}
+td{
+    border: 5px #C79828 solid;
+}
+th{
+  color: #0B2241;
+}
+
+h2{
+  color: #0B2241;
+}
+li.example{
+  color: #0B2241;
+  font-size: 2em;
+}
+p.intro{
+  background-color: #0B2241;
+  color: #C79828;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media all and (min-width: 480px) {
+  body {
+    background-color: #3D843E;
+  }
+}
+@media all and (min-width: 720px) {
+  body {
+    background-color: #C79828;
+  }
+}
+@media all and (min-width: 920px) {
+  body {
+    background-color: #0B2241;
+  }
+}
+
+.copyright {
+  color: #0B2241;
+}
+
+/* @media all and (min-width: 320px) and (max-width: 780px) {
+
+  body {
+    background-color: #3D843E;
+  }
+}
+
+@media all and (min-width: 781px) and (max-width: 992px) {
+
+  body {
+    background-color: #C79828;
+  }
+}
+
+@media all and (min-width: 993px) {
+  body {
+    background-color: #0B2241;
+  } */
+/* @media all and (min-width: 320px) and (max-width: 655px) {
+
+  body {
+    background-color: #3D843E;
+  }
+}
+
+@media all and (min-width: 656px) and (max-width: 992) {
+  body {
+    background-color: #0B2241;
+}
+
+@media all and (min-width: 993px) {
+  body {
+    background-color: #0B2241; */
+/* } */
