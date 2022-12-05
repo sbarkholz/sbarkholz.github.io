@@ -1,0 +1,28 @@
+.water {
+background-image: url("../img/glasshouse 5.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+}
+
+.display-5 {
+color: black;
+}
+
+.col-md-8 {
+  color: white;
+}
+
+.col-md-6 {
+background-image: url("../img/pavillion.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+}
+
+.lip {
+background-image: url("../img/lipstick.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+}
